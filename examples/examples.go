@@ -11,6 +11,8 @@ var (
 	BranchResourceConfig string
 	//go:embed resources/supabase_apikey/resource.tf
 	ApiKeyResourceConfig string
+	//go:embed resources/supabase_function/resource.tf
+	FunctionResourceConfig string
 	//go:embed data-sources/supabase_branch/data-source.tf
 	BranchDataSourceConfig string
 	//go:embed data-sources/supabase_pooler/data-source.tf

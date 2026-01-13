@@ -90,6 +90,7 @@ func (p *SupabaseProvider) Resources(ctx context.Context) []func() resource.Reso
 		NewSettingsResource,
 		NewBranchResource,
 		NewApiKeyResource,
+		NewFunctionResource,
 	}
 }
 
@@ -98,6 +99,7 @@ func (p *SupabaseProvider) DataSources(ctx context.Context) []func() datasource.
 		NewBranchDataSource,
 		NewPoolerDataSource,
 		NewAPIKeysDataSource,
+		NewFunctionBodyDataSource,
 	}
 }
 
